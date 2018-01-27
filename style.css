@@ -1,0 +1,119 @@
+/* Colors:
+Dark----#011627 
+Red ----#F71735      
+Light---white   
+Blue----#41EAD4
+Yellow--#FF9F1C
+
+Fonts:
+Titles/Mains - righteous, Roboto, sans-serif
+Text - roboto, sans-serif
+*/
+
+body {
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    padding-top:60px;
+    background-color:#F71735;
+}
+h2 {
+    font-family: "Righteous", "Roboto", sans-serif;
+    font-size: 48px;
+    border-bottom: solid 3px #FF9F1C;
+    width:50%;
+    margin:auto;
+    margin-bottom:20px;
+}
+
+.page{
+    padding-top:60px;
+    background-color: white;
+}
+#about-page img{
+    width: 300px;
+    border:solid 5px #011627;
+    border-radius: 50%;
+}
+
+img {
+    display: block;
+    margin:0 auto;
+}
+
+
+#page-bar{
+    padding-top:50px;
+    background-color: #FF9F1C;
+}
+
+#cr-bar{
+    background-color: #011627;
+    color: #F71735;
+    padding-top:20px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-style: italic; 
+
+}
+
+textarea {
+    resize: none;
+}
+h3{
+    font-family: "Righteous", "Roboto", sans-serif;
+}
+
+a{
+    color:#F71735;
+}
+a:hover{
+    color:#FF9F1C;
+    background-color: #011627;
+}
+
+#page-bar .fa {
+    font-size:50px;
+    margin:5px;
+}
+
+#page-bar .col-md-6 .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top:20px;
+    
+}
+
+#contact-page {
+    padding-bottom:50px;
+}
+
+#portfolio-page{
+    background-color:#011627;
+    padding-bottom:60px;
+}
+#portfolio-page h2{
+    color:white;
+}
+
+#portfolio-page img{
+    opacity: 0.2;
+    width: 90%
+}
+
+#portfolio-page img:hover{
+    opacity: 1;
+    width: 100%
+}
+
+#about-page .col-md-6 .container {
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+    font-size: 75px;
+}
+
+#about-page{
+    padding-bottom: 60px;
+    font-size: 22px;
+}

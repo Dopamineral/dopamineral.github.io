@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Portfolio</title>
+
+        <!-- import bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+        <!-- import fontsaweseom -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link rel = "stylesheet" href ="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+        <!-- import stylesheet-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- import google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        
+        <!-- importing jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <script src = "scrypt.js"></script>
+
+    </head>
+
+
+
+
+    <body>
+        <!-- navigation bar (BOOTSTRAP) -->
+        <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top" style = "background-color: #011627">
+            <div class = "container">
+                <a class="navbar-brand navbar-brand-right" style = "font-family:Righteous; color:#FF9F1C" href="#">Dopamineral</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> 
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#about-page">About <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#portfolio-page">Portfolio</a>
+                        <a class="nav-item nav-link" href="#contact-page">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ABOUT PAGE-->
+        <div id = "about-page" class = "container page">
+            <h2 class = "text-center">About Me <i class = "fa fa-heartbeat"></i></h2>
+            <div class = "row">
+                <div class = "col-md-1"></div>
+                <div class = "col-md-6">
+                    <p class = "text1">I'm a medical biologist dabbling in the fine arts of programming.
+                        Web-design and bio-informatics is where I'm at home, but artificial intelligence and machine learning is something I'm also pursuing, you know, getting acquainted with our future overlords.</p>
+                    <h3 class = "text-center">Languages I know</h3>
+                    <div class = "container">
+                        <a href = "https://www.python.org/" target = "_blank"><i class = "icon ion-social-python"></i></a> 
+                        <a href = "https://www.w3schools.com/html/" target = "_blank"> <i class = "icon ion-social-html5"></i></a>
+                        <a href="http://www.css3.info/" target="_blank"><i class = "icon ion-social-css3"></i></a>
+                        <a href = "https://www.javascript.com/" target = "_blank"><i class = "icon ion-social-javascript"></i></a>
+                    </div>
+                </div>
+                <div class = "col-md-5">
+                    <img src = "https://i.imgur.com/29Ub73Q.png" alt = "profile picture" class = "img-fluid">
+                </div>
+            </div>
+        </div>
+        <!-- PORTFOLIO PAGE -->
+        <div id ="portfolio-page" class = "container page">
+            <h2 class = "text-center">Portfolio <i class = "fa fa-medkit"></i></h2>
+            <!-- row1-->
+            <div class = "row">
+                <div class = "col-md-6">
+                    <img src = "https://i.imgur.com/H0YPZyw.png" class = "img-fluid" alt ="portfolio sample">
+                </div>
+                <div class = "col-md-6">
+                    <img src = "https://i.imgur.com/Grg1fL5.png" class = "img-fluid" alt ="portfolio sample">
+                </div>
+            </div>
+            <!-- row2-->
+            <div class = "row">
+                <div class = "col-md-6">
+                    <img src = "https://i.imgur.com/Grg1fL5.png" class = "img-fluid" alt ="portfolio sample">
+                </div>
+                <div class = "col-md-6">
+                    <img src = "https://i.imgur.com/Grg1fL5.png" class = "img-fluid" alt ="portfolio sample">
+                </div>
+            </div>
+            <!-- row3-->
+            <div class = "row">
+                <div class = "col-md-6">
+                    <img src = "https://i.imgur.com/Grg1fL5.png" class = "img-fluid" alt ="portfolio sample">
+                </div>
+                <div class = "col-md-6">
+                    <img src = "https://i.imgur.com/Grg1fL5.png" class = "img-fluid" alt ="portfolio sample">
+                </div>
+            </div>
+        </div>
+        <!-- CONTACT PAGE-->
+        <div id ="contact-page" class = "container page">
+            <h2 class = "text-center">Contact Me <i class = "fa fa-stethoscope"></i></h2>
+            <div class = "row">
+                <div class = "col-md-6">
+                    <form action = "#">
+                        <fieldset class = "form-group">
+                            <input type = "text" class = "form-control" placeholder = "Name">
+                        </fieldset>
+                        <fieldset class = "form-group">
+                            <input type = "text" class = "form-control" placeholder = "e-mail">
+                        </fieldset>
+                        <fieldset class = "form-group">
+                            <textarea cols = 5 rows = 5 class = "form-control" placeholder = "Message"></textarea>
+                        </fieldset>
+                        <button class = "btn btn-primary">Submit <i class = "fa fa-rocket"></i></button>
+                    </form>
+                </div>
+
+                <div class = "col-sm-6">
+                    <p>Even though I am a hobbyist by nature, I don't shy away from interesting projects, be it web-design or bio-informatics or machine learning. If you have an interesting project and are looking for an eager mind, hit me up! <br><br> 
+                        I also do some freelance web-design in my spare time so 
+                        if you like what you see,
+                        if it's your cup of tea, 
+                        then take hold of the moment,
+                        and please contact me! 
+                </div>
+            </div>
+        </div>
+        <!-- PAGE BAR-->
+        <div id= "page-bar" class = "container-fluid ">
+            <div class = "container">
+                <div class = "row">
+                    <div class = "col-md-4">
+                        <h3 class = "text-center">About this page</h3>
+                        <p>This page was made as an assignment for <a href = "https://www.freecodecamp.org/" target = "_blank">FreeCodeCamp</a>. They throw you into the water and yell "swim!". If you're looking for an amazing web-development course, you should definitely check them out.</p>
+
+                    </div>
+                    <div class = "col-md-2">
+                    </div>
+                    <div class = "col-md-6">
+                        <h3 class = "text-center">Check out my other content!</h3>
+                        <div class = "container">
+                            <a href = "https://github.com/Dopamineral" target="_blank"><i class = "fa fa-github"></i></a>
+                            <a href = "https://codepen.io/Dopamineral/" target="_blank"><i class = "fa fa-codepen"></i></a>
+                            <a href = "https://www.linkedin.com/" target="_blank"><i class = "fa fa-linkedin-square"></i></a>
+                            <a href = "https://www.reddit.com/user/Dopamineral_/" target="_blank"><i class ="fa fa-reddit-alien"></i></a>
+                            <a href = "https://www.freecodecamp.org/dopamineral" target="_blank"><i class ="fa fa-free-code-camp"></i></a>
+                            <a href = "http://rosalind.info/users/BiomedScientist/" target="_blank"><i class ="fa fa-flask"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CR BAR -->
+        <div id = "cr-bar" class = "container-fluid">
+            <p class = "text-center">© 2018 Robert Pretorius</p>
+        </div>
+
+
+
+        <!-- jQuery library -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+        <!-- Popper -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+        <!-- Latest compiled and minified Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+    </body>
+
+</html>
